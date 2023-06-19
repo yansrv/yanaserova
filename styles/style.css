@@ -1,0 +1,56 @@
+@font-face {
+    font-family: Golos;
+    src: url(./fonts/Golos-Text_Regular.ttf);
+    font-style: normal;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #141414;
+}
+.conteiner{
+    width: 1366px;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/*шапка*/
+.logotip{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+.logotip h1{
+    font-family: 'Golos';
+    font-size: 20px;
+    color: #6fb1fc;
+    padding-left: 15px;
+}
+ .text_logo a{
+    font-family: 'Golos';
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    text-decoration: none;
+    padding-right: 15px;
+}
+.icons{
+    display: flex;
+}
+.icon{
+    align-items: center;
+    display: flex;
+    margin-left: 25px;
+}
+.icon a{
+    font-family: 'Golos';
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 20px;
+}
+.text_logo{
+    display: flex;
+}
